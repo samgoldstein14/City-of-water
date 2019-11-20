@@ -1,0 +1,144 @@
+p{
+  color:black;
+}
+
+.samhead {
+  font-size: 40px;
+  text-transform: uppercase;
+  font-family: "TrimPoster-Bold","Helvetica", sans-serif;
+  font-family:cursive;
+  padding: 15px;
+}
+/*
+a {
+  color:black;
+  text-decoration: underline;
+}
+/*
+a:hover {
+  color:slateblue;
+  text-transform: uppercase;
+  font-size: 25px;
+}*/
+
+.header {
+  width: 100%;
+  height: 200px;
+  padding-bottom: 115px;
+
+}
+
+.cityofwater-nav {
+  /*z-index: 100;*/
+
+  top:0;
+  width:100%;
+}
+
+.botpad {
+  padding: 20px;
+}
+
+h1.samhead {
+  font-family: cursive;
+  font-family: "TrimPoster-Lean", "Helvetica",sans-serif;
+  font-size: 40px;
+  text-transform: capitalize;
+
+}
+
+
+h2.samhead {
+  font-family: "Sentinel-Medium", "Impact", sans-serif;
+  letter-spacing: 0.5px;
+  font-size: 24px;
+  position: relative;
+  top: -20px;
+}
+
+.notyet {
+    height: 600px;
+    background-color: black;
+
+}
+
+.headline {
+
+}
+
+
+.subhead {
+
+}
+
+.byline {
+
+}
+
+.figcaption {
+  padding: 10px;
+  background-color: #B8BFBF;
+}
+
+.heroimage {
+  padding: 20px;
+  width : 100%;
+  object-fit: cover;
+}
+
+.quote {
+  padding: 20px;
+  background-color: ghostwhite;
+  margin-bottom: 20px;
+  width:50%;
+  border: solid 2px navy;
+  float:left;
+  margin-right: 30px;
+}
+
+.quote h3 {
+  color:orchid;
+}
+
+/* Larger than mobile */
+@media (min-width: 415px) {
+    .myresponsivebox {
+      background-color: mistyrose;
+}
+}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+  .myresponsivebox {
+    background-color: pink;
+}
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+  .myresponsivebox {
+    background-color: lightpink;
+}
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+  .myresponsivebox {
+    background-color: hotpink;
+}
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
+  .myresponsivebox {
+    background-color: deeppink;
+}
+}
+/*
+.maintype{
+  color:red;
+  font-size:30px
+}
+.redtype figure figcaption {
+  color:red
+}*/
