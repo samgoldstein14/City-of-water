@@ -4,7 +4,7 @@ p{
 
 .samhead {
   color: midnightblue;font-size:40px; text-align: center; font-family:"TrimPoster-Lean";
-  padding: 15px;
+  padding: 15px; @media screen (max-width: 481px);
     /*
 a {
   color:black;
